@@ -1,0 +1,44 @@
+@media only screen and (min-width: 100px) and (max-width: 575px){
+  header{
+    flex-direction: column;
+    align-items: stretch;
+    gap: 5px;
+  }
+  
+  .logo{
+    display: none;
+  }
+  
+  .location{
+    padding: 10px;
+  }
+  
+  .header_left button{
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: 5px;
+  background-color: transparent;
+  border: none;
+  }
+
+  .header_left button{
+  font-size: 24px;
+  }
+  
+  
+  .header_bottom{
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  
+  .header_right{
+    display: none;
+    
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1280px){
+  .header_left button {
+  display: none;
+}
+}
