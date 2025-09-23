@@ -1,5 +1,5 @@
 @media only screen and (min-width: 100px) and (max-width: 575px){
-  header{
+  nav{
     flex-direction: column;
     align-items: stretch;
     gap: 5px;
@@ -13,7 +13,7 @@
     padding: 10px;
   }
   
-  .header_left button{
+  .nav_left button{
   margin-top: 5px;
   margin-left: auto;
   margin-right: 5px;
@@ -21,24 +21,42 @@
   border: none;
   }
 
-  .header_left button{
+  .nav_left button{
   font-size: 24px;
   }
   
   
-  .header_bottom{
+  .nav_bottom{
     margin-left: 8px;
     margin-right: 8px;
   }
   
-  .header_right{
+  .nav_right{
     display: none;
     
   }
-}
+  
+  .banner img:first-child{
+    display: none;
+  }
+  
+  .orderbanners{
+    display: none;
+  }
+  
+  .category_items{
+    flex-basis: 25%;
+  }
+  
+
+ }
 
 @media only screen and (min-width: 576px) and (max-width: 1280px){
-  .header_left button {
+  .nav_left button{
+  display: none;
+}
+
+.banner img:last-child{
   display: none;
 }
 }
