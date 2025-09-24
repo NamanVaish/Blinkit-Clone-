@@ -124,24 +124,32 @@ nav{
 .product_section{
   max-width: 1280px;
   margin: auto;
-  padding: 15px 0px;
+  padding: 15px;
 }
 
 .headingrow{
   width: 100%;
-  margin-left: 1.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .headingrow h2{
   font-size: 22px;
 }
 
+.headingrow a{
+  font-size: 18px;
+  color: #328830;
+}
+
 .productrow{
   width: 100%;
   margin: 20px 0px;
   display: flex;
+  flex-wrap: wrap;
   gap: 2%;
-  padding-left: 15px;
+
 }
 
 .product_items{
