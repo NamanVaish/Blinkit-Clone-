@@ -14,15 +14,15 @@
   }
   
   .nav_left button{
-  margin-top: 5px;
-  margin-left: auto;
-  margin-right: 5px;
-  background-color: transparent;
-  border: none;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: 5px;
+    background-color: transparent;
+    border: none;
   }
 
   .nav_left button{
-  font-size: 24px;
+    font-size: 24px;
   }
   
   
@@ -31,16 +31,7 @@
     margin-right: 8px;
   }
   
-  .nav_right{
-    display: none;
-    
-  }
-  
-  .banner img:first-child{
-    display: none;
-  }
-  
-  .orderbanners{
+ .nav_right,.banner img:first-child,  .orderbanners{
     display: none;
   }
   
@@ -56,14 +47,22 @@
     flex-basis: 49%;
     margin-bottom: 10px;
   }
+  
+  footer{
+    padding: 0px;
+  }
+  
+  .footer_web{
+    display: none;
+  }
  }
 
 @media only screen and (min-width: 576px) and (max-width: 1280px){
   .nav_left button{
-  display: none;
-}
+    display: none;
+  }
 
-.banner img:last-child{
+.banner img:last-child,.footer_phn{
   display: none;
-}
-}
+  }
+ }
