@@ -157,7 +157,7 @@ nav{
   flex-basis: 15%;
   border: 1px solid #ccc;
   border-radius: 13px;
-  box-shadow: 0px 0px 7px 2px #ccc;
+  box-shadow: 0px 0px 7px 2px #fcfcfc;
 }
 
 .product_img{
@@ -331,6 +331,43 @@ nav{
   display: block;
   color: rgb(102, 102, 102);
   margin-bottom: 10px;
+}
+
+.footer_web_row2{
+  background-color: #fcfcfc;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.footer_web_row2 p{
+  flex-basis: 30%;
+  text-align: center;
+  font-size: 12px;
+}
+
+.app_icons{
+  flex-basis: 34%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.slinks{
+  display: flex;
+  gap: 20px;
+}
+
+.slinks i{
+  width: 40px;
+  height: 40px;
+  background-color: #1f1f1f;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer_web_row3 p{
