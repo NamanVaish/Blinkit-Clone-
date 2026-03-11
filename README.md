@@ -1,2 +1,2 @@
 # Blinkit-Clone-
-Building Blinkit Clone using Html and Css
+Building a UI clone of the website named Blinkit Hope You Like it ❤️
